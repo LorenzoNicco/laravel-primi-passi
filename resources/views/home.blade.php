@@ -4,9 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <title>Laravel Primi Passi</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header class="container-flow bg-primary">
+            <div class="row">
+                <ul class="col list-unstyled d-flex justify-content-between">
+                    <li>
+                        <a href="./contatti" class="text-decoration-none text-white">Contatti</a>
+                    </li>
+                    <li>
+                        <a href="./aboutUs" class="text-decoration-none text-white">About Us</a>
+                    </li>
+                    <li>
+                        <a href="./findUs" class="text-decoration-none text-white">Dove Siamo</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <h1>Hello World!</h1>
+        </main>
     </body>
 </html>
